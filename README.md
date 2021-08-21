@@ -2,7 +2,7 @@ React Project Maps is a reference implementation for creating maps within a Reac
 
 ## Live Demo
 
-https://spinningideas.github.io/react-project-accelerator/
+https://spinningideas.github.io/react-maps/
 
 ## Get Started
 
