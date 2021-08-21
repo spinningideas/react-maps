@@ -1,0 +1,8 @@
+[
+	{ "continentCode": "AF", "continentName": "Africa" },
+	{ "continentCode": "AS", "continentName": "Asia" },
+	{ "continentCode": "EU", "continentName": "Europe" },
+	{ "continentCode": "NA", "continentName": "North America" },
+	{ "continentCode": "OC", "continentName": "Oceania" },
+	{ "continentCode": "SA", "continentName": "South America" }
+]
