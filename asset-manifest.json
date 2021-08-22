@@ -1,28 +1,28 @@
 {
   "files": {
-    "static/js/0.182cb6fa.chunk.js": "https://spinningideas.github.io/react-maps/static/js/0.182cb6fa.chunk.js",
-    "static/js/0.182cb6fa.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/0.182cb6fa.chunk.js.map",
-    "main.css": "https://spinningideas.github.io/react-maps/static/css/main.f96b5402.chunk.css",
-    "main.js": "https://spinningideas.github.io/react-maps/static/js/main.597b5835.chunk.js",
-    "main.js.map": "https://spinningideas.github.io/react-maps/static/js/main.597b5835.chunk.js.map",
-    "runtime-main.js": "https://spinningideas.github.io/react-maps/static/js/runtime-main.58fcf645.js",
-    "runtime-main.js.map": "https://spinningideas.github.io/react-maps/static/js/runtime-main.58fcf645.js.map",
-    "static/js/3.37edda28.chunk.js": "https://spinningideas.github.io/react-maps/static/js/3.37edda28.chunk.js",
-    "static/js/3.37edda28.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/3.37edda28.chunk.js.map",
-    "static/js/4.a1255e9d.chunk.js": "https://spinningideas.github.io/react-maps/static/js/4.a1255e9d.chunk.js",
-    "static/js/4.a1255e9d.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/4.a1255e9d.chunk.js.map",
-    "static/js/5.80fc75ac.chunk.js": "https://spinningideas.github.io/react-maps/static/js/5.80fc75ac.chunk.js",
-    "static/js/5.80fc75ac.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/5.80fc75ac.chunk.js.map",
-    "static/js/6.6fbf18ca.chunk.js": "https://spinningideas.github.io/react-maps/static/js/6.6fbf18ca.chunk.js",
-    "static/js/6.6fbf18ca.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/6.6fbf18ca.chunk.js.map",
+    "static/js/0.bf4f7e21.chunk.js": "https://spinningideas.github.io/react-maps/static/js/0.bf4f7e21.chunk.js",
+    "static/js/0.bf4f7e21.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/0.bf4f7e21.chunk.js.map",
+    "main.css": "https://spinningideas.github.io/react-maps/static/css/main.675ae132.chunk.css",
+    "main.js": "https://spinningideas.github.io/react-maps/static/js/main.b83a0b8c.chunk.js",
+    "main.js.map": "https://spinningideas.github.io/react-maps/static/js/main.b83a0b8c.chunk.js.map",
+    "runtime-main.js": "https://spinningideas.github.io/react-maps/static/js/runtime-main.79c3a102.js",
+    "runtime-main.js.map": "https://spinningideas.github.io/react-maps/static/js/runtime-main.79c3a102.js.map",
+    "static/js/3.f0377d4f.chunk.js": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js",
+    "static/js/3.f0377d4f.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js.map",
+    "static/js/4.bc12acab.chunk.js": "https://spinningideas.github.io/react-maps/static/js/4.bc12acab.chunk.js",
+    "static/js/4.bc12acab.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/4.bc12acab.chunk.js.map",
+    "static/js/5.591775fe.chunk.js": "https://spinningideas.github.io/react-maps/static/js/5.591775fe.chunk.js",
+    "static/js/5.591775fe.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/5.591775fe.chunk.js.map",
+    "static/js/6.2282583f.chunk.js": "https://spinningideas.github.io/react-maps/static/js/6.2282583f.chunk.js",
+    "static/js/6.2282583f.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/6.2282583f.chunk.js.map",
     "index.html": "https://spinningideas.github.io/react-maps/index.html",
-    "static/css/main.f96b5402.chunk.css.map": "https://spinningideas.github.io/react-maps/static/css/main.f96b5402.chunk.css.map",
-    "static/js/3.37edda28.chunk.js.LICENSE.txt": "https://spinningideas.github.io/react-maps/static/js/3.37edda28.chunk.js.LICENSE.txt"
+    "static/css/main.675ae132.chunk.css.map": "https://spinningideas.github.io/react-maps/static/css/main.675ae132.chunk.css.map",
+    "static/js/3.f0377d4f.chunk.js.LICENSE.txt": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.58fcf645.js",
-    "static/js/3.37edda28.chunk.js",
-    "static/css/main.f96b5402.chunk.css",
-    "static/js/main.597b5835.chunk.js"
+    "static/js/runtime-main.79c3a102.js",
+    "static/js/3.f0377d4f.chunk.js",
+    "static/css/main.675ae132.chunk.css",
+    "static/js/main.b83a0b8c.chunk.js"
   ]
 }
