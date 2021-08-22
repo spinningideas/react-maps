@@ -2,9 +2,9 @@
   "files": {
     "static/js/0.bf4f7e21.chunk.js": "https://spinningideas.github.io/react-maps/static/js/0.bf4f7e21.chunk.js",
     "static/js/0.bf4f7e21.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/0.bf4f7e21.chunk.js.map",
-    "main.css": "https://spinningideas.github.io/react-maps/static/css/main.5b380633.chunk.css",
-    "main.js": "https://spinningideas.github.io/react-maps/static/js/main.b83a0b8c.chunk.js",
-    "main.js.map": "https://spinningideas.github.io/react-maps/static/js/main.b83a0b8c.chunk.js.map",
+    "main.css": "https://spinningideas.github.io/react-maps/static/css/main.e586db99.chunk.css",
+    "main.js": "https://spinningideas.github.io/react-maps/static/js/main.7ae190c0.chunk.js",
+    "main.js.map": "https://spinningideas.github.io/react-maps/static/js/main.7ae190c0.chunk.js.map",
     "runtime-main.js": "https://spinningideas.github.io/react-maps/static/js/runtime-main.79c3a102.js",
     "runtime-main.js.map": "https://spinningideas.github.io/react-maps/static/js/runtime-main.79c3a102.js.map",
     "static/js/3.f0377d4f.chunk.js": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js",
@@ -16,13 +16,13 @@
     "static/js/6.2282583f.chunk.js": "https://spinningideas.github.io/react-maps/static/js/6.2282583f.chunk.js",
     "static/js/6.2282583f.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/6.2282583f.chunk.js.map",
     "index.html": "https://spinningideas.github.io/react-maps/index.html",
-    "static/css/main.5b380633.chunk.css.map": "https://spinningideas.github.io/react-maps/static/css/main.5b380633.chunk.css.map",
+    "static/css/main.e586db99.chunk.css.map": "https://spinningideas.github.io/react-maps/static/css/main.e586db99.chunk.css.map",
     "static/js/3.f0377d4f.chunk.js.LICENSE.txt": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.79c3a102.js",
     "static/js/3.f0377d4f.chunk.js",
-    "static/css/main.5b380633.chunk.css",
-    "static/js/main.b83a0b8c.chunk.js"
+    "static/css/main.e586db99.chunk.css",
+    "static/js/main.7ae190c0.chunk.js"
   ]
 }
