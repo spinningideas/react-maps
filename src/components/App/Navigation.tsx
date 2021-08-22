@@ -6,7 +6,7 @@ const Navigation: React.FC = () => {
   return (
     <div className="nav">
       <div className="nav-item">
-        <NavLink to="">
+        <NavLink to="" style={{padding:0, margin:0}}>
           <Logo width={25} height={25} />
         </NavLink>
       </div>

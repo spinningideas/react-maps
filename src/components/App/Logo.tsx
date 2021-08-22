@@ -6,13 +6,18 @@ const Logo: React.FC<{ width?: number; height?: number }> = ({
   height = 192,
 }) => {
   return (
-    <div>
-      <img
-        src={logo}
-        style={{ width: width + "px", height: height + "px" }}
-        alt="logo"
-      />
-    </div>
+    <img
+      src={logo}
+      style={{
+        margin: 0,
+        paddingTop: 5,
+        paddingLeft: 10,
+        paddingRight: 10,
+        width: width + "px",
+        height: height + "px",
+      }}
+      alt="logo"
+    />
   );
 };
 
