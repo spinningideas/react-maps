@@ -1,26 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { GeoDataService } from "services/GeoDataService";
+import Logo from "components/App/Logo";
+import React from "react";
 
 const Home: React.FC = () => {
-  const [geoData, setGeoData] = useState<any>();
-  const geoDataService = new GeoDataService();
-
-  useEffect(() => {
-    const loadData = async () => {
-      let data = await geoDataService.getMapDataGeoCountries();
-      setGeoData(data);
-    };
-    loadData();
-  }, []);
 
   return (
     <>
-      <h2>About This App</h2>
-      <div>This purpose of this application is to demonstrate options to render world maps in React JS </div>
+      <h2>React Maps</h2>
+      <Logo />
+      <div className="text-block">This purpose of this application is to demonstrate options to render world maps in React JS </div>
+      <div className="text-block">Select the type of map to view using navigation at top of page</div>
       <h3>Libraries Used</h3>
-      <div><a href="https://www.react-simple-maps.io/examples/" target="_blank">react-simple-maps</a></div>
-      <div><a href="https://github.com/wwayne/react-tooltip/" target="_blank">react-tooltip</a></div>
+      <div className="text-block"><a href="https://www.react-simple-maps.io/examples/" target="_blank">react-simple-maps</a></div>
+      <div className="text-block"><a href="https://wwayne.github.io/react-tooltip/" target="_blank">react-tooltip</a></div>
     </>
   );
 };

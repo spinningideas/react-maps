@@ -6,12 +6,12 @@ import Navigation from "components/App/Navigation";
 
 const App: React.FC = () => {
   return (
-    <div className="app-content">
-      <Router basename="react-maps">
-        <Navigation />
+    <Router basename="react-maps">
+      <Navigation />
+      <div className="app-content">
         <RoutedPages />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 };
 
