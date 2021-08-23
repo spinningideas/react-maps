@@ -30,7 +30,7 @@ a.active {
   border: 0;
 }
 
-.nav-item  {
+.nav-item {
   padding: 0;
   margin: 0;
   border: 0;
@@ -64,6 +64,56 @@ a.active {
 .app-content .text-block {
   margin-top: 10px;
   text-align: center;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  width: 500px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  opacity: 1;
+  visibility: visible;
+}
+.modal.off {
+  opacity: 0;
+  visibility: hidden;
+}
+.modal .modal-title {
+  font-weight: 600;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+  margin: 0;
+}
+.modal .modal-content {
+  display: flex;
+  justify-self: start;
+  align-self: flex-start;
+  padding: 0 10px 10px 10px;
+}
+
+.modal .modal-actions {
+  display: flex;
+  justify-self: start;
+  align-self: flex-start;
+  border-top: 1px solid #e0e0e0;
+  background: #ffffff;
+  padding: 10px;
+}
+.modal .modal-actions button {
+  border: 0;
+  color: #ffffff;
+  background: #1e88e5;
+  border-radius: 2px;
+  padding: 10px 20px;
 }
 
 @media all and (max-width: 700px) {

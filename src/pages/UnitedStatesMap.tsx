@@ -6,14 +6,17 @@ import {
   Geography,
   Marker,
 } from "react-simple-maps";
-import ReactTooltip from "react-tooltip";
 import { geoCentroid } from "d3-geo";
 import { GeoDataService } from "services/GeoDataService";
 import { FeatureCollection } from "models/FeatureCollection";
+import Modal from "components/Modal";
+import ReactTooltip from "react-tooltip";
 
 const UnitedStatesMap: React.FC = () => {
   const [geoData, setGeoData] = useState<FeatureCollection>();
   const [mapTooltipContent, setMapTooltipContent] = useState<string>("");
+  const [mapModalContent, setMapModalContent] = useState<any>({});
+  const [mapModalOpened, setMapModalOpened] = useState<boolean>(false);
   const geoDataService = new GeoDataService();
 
   const offsets = {
@@ -48,24 +51,31 @@ const UnitedStatesMap: React.FC = () => {
             fill="#e0e0e0"
             onMouseEnter={() => {
               setMapTooltipContent(
-                `${geo.properties.stateCode} — ${geo.properties.stateName}`
+                `${geo.properties.stateCode} — ${geo.properties.name}`
               );
             }}
             onMouseLeave={() => {
               setMapTooltipContent("");
             }}
+            onClick={() => {
+              setMapModalContent(geo.properties);
+              setMapModalOpened(true);
+            }}
             style={{
               default: {
                 fill: "#e0e0e0",
                 outline: "none",
+                cursor: "pointer",
               },
               hover: {
                 fill: "#bbdefb",
                 outline: "none",
+                cursor: "pointer",
               },
               pressed: {
                 fill: "#1e88e5",
                 outline: "none",
+                cursor: "pointer",
               },
             }}
           />
@@ -136,6 +146,13 @@ const UnitedStatesMap: React.FC = () => {
         </Geographies>
       </ComposableMap>
       <ReactTooltip>{mapTooltipContent}</ReactTooltip>
+      <Modal
+        title="Selected State"
+        onClose={() => setMapModalOpened(false)}
+        opened={mapModalOpened}
+      >
+        <div className="text-block">{mapModalContent.stateName}</div>
+      </Modal>
     </>
   );
 };
