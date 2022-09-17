@@ -1,28 +1,21 @@
 {
   "files": {
-    "static/js/0.be42737b.chunk.js": "https://spinningideas.github.io/react-maps/static/js/0.be42737b.chunk.js",
-    "static/js/0.be42737b.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/0.be42737b.chunk.js.map",
-    "main.css": "https://spinningideas.github.io/react-maps/static/css/main.6184c987.chunk.css",
-    "main.js": "https://spinningideas.github.io/react-maps/static/js/main.ee02f9f5.chunk.js",
-    "main.js.map": "https://spinningideas.github.io/react-maps/static/js/main.ee02f9f5.chunk.js.map",
-    "runtime-main.js": "https://spinningideas.github.io/react-maps/static/js/runtime-main.33c44d6a.js",
-    "runtime-main.js.map": "https://spinningideas.github.io/react-maps/static/js/runtime-main.33c44d6a.js.map",
-    "static/js/3.f0377d4f.chunk.js": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js",
-    "static/js/3.f0377d4f.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js.map",
-    "static/js/4.e0c3161a.chunk.js": "https://spinningideas.github.io/react-maps/static/js/4.e0c3161a.chunk.js",
-    "static/js/4.e0c3161a.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/4.e0c3161a.chunk.js.map",
-    "static/js/5.591775fe.chunk.js": "https://spinningideas.github.io/react-maps/static/js/5.591775fe.chunk.js",
-    "static/js/5.591775fe.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/5.591775fe.chunk.js.map",
-    "static/js/6.93795896.chunk.js": "https://spinningideas.github.io/react-maps/static/js/6.93795896.chunk.js",
-    "static/js/6.93795896.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/6.93795896.chunk.js.map",
+    "main.css": "https://spinningideas.github.io/react-maps/static/css/main.4f7f8fb2.css",
+    "main.js": "https://spinningideas.github.io/react-maps/static/js/main.df1337e8.js",
+    "static/js/293.e52b9728.chunk.js": "https://spinningideas.github.io/react-maps/static/js/293.e52b9728.chunk.js",
+    "static/js/779.0448d3e3.chunk.js": "https://spinningideas.github.io/react-maps/static/js/779.0448d3e3.chunk.js",
+    "static/js/387.bc36fe30.chunk.js": "https://spinningideas.github.io/react-maps/static/js/387.bc36fe30.chunk.js",
+    "static/js/579.d315ff7a.chunk.js": "https://spinningideas.github.io/react-maps/static/js/579.d315ff7a.chunk.js",
     "index.html": "https://spinningideas.github.io/react-maps/index.html",
-    "static/css/main.6184c987.chunk.css.map": "https://spinningideas.github.io/react-maps/static/css/main.6184c987.chunk.css.map",
-    "static/js/3.f0377d4f.chunk.js.LICENSE.txt": "https://spinningideas.github.io/react-maps/static/js/3.f0377d4f.chunk.js.LICENSE.txt"
+    "main.4f7f8fb2.css.map": "https://spinningideas.github.io/react-maps/static/css/main.4f7f8fb2.css.map",
+    "main.df1337e8.js.map": "https://spinningideas.github.io/react-maps/static/js/main.df1337e8.js.map",
+    "293.e52b9728.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/293.e52b9728.chunk.js.map",
+    "779.0448d3e3.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/779.0448d3e3.chunk.js.map",
+    "387.bc36fe30.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/387.bc36fe30.chunk.js.map",
+    "579.d315ff7a.chunk.js.map": "https://spinningideas.github.io/react-maps/static/js/579.d315ff7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.33c44d6a.js",
-    "static/js/3.f0377d4f.chunk.js",
-    "static/css/main.6184c987.chunk.css",
-    "static/js/main.ee02f9f5.chunk.js"
+    "static/css/main.4f7f8fb2.css",
+    "static/js/main.df1337e8.js"
   ]
 }
