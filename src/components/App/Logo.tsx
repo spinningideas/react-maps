@@ -1,9 +1,12 @@
 import React from "react";
 import logo from "logo.png";
 
-const Logo: React.FC<{ width?: number; height?: number }> = ({
+const Logo = ({
   width = 192,
   height = 192,
+}: {
+  width?: number;
+  height?: number;
 }) => {
   return (
     <img

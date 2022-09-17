@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <Logo />
       <div className="text-block">
         This purpose of this application is to demonstrate options to render
-        world maps in React JS{" "}
+        world and united states maps in React JS
       </div>
       <div className="text-block">
         Select the type of map to view using navigation at top of page
@@ -23,12 +23,20 @@ const Home: React.FC = () => {
       </div>
       <h3>Libraries Used</h3>
       <div className="text-block">
-        <a href="https://www.react-simple-maps.io/examples/" target="_blank">
+        <a
+          href="https://www.react-simple-maps.io/examples/"
+          target="_blank"
+          rel="noreferrer"
+        >
           react-simple-maps
         </a>
       </div>
       <div className="text-block">
-        <a href="https://wwayne.github.io/react-tooltip/" target="_blank">
+        <a
+          href="https://wwayne.github.io/react-tooltip/"
+          target="_blank"
+          rel="noreferrer"
+        >
           react-tooltip
         </a>
       </div>

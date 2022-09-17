@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import {
   Annotation,
   ComposableMap,
@@ -12,7 +12,7 @@ import { FeatureCollection } from "models/FeatureCollection";
 import Modal from "components/Modal";
 import ReactTooltip from "react-tooltip";
 
-const UnitedStatesMap: React.FC = () => {
+const UnitedStatesMap = () => {
   const [geoData, setGeoData] = useState<FeatureCollection>();
   const [mapTooltipContent, setMapTooltipContent] = useState<string>("");
   const [mapModalContent, setMapModalContent] = useState<any>({});
@@ -38,9 +38,12 @@ const UnitedStatesMap: React.FC = () => {
     return undefined;
   };
 
-  const GeographyShapes: React.FC<{ geographies: any[] }> = ({
-    geographies,
-  }) => {
+  const getUnitedStatesGeoData = useCallback(async () => {
+    const geoDataServiceUS = new GeoDataService();
+    return await geoDataServiceUS.getMapDataGeoUSStates();
+  }, []);
+
+  const GeographyShapes = ({ geographies }: { geographies: any[] }) => {
     return (
       <>
         {geographies.map((geo) => (
@@ -125,11 +128,11 @@ const UnitedStatesMap: React.FC = () => {
 
   useEffect(() => {
     const loadData = async () => {
-      let data = await geoDataService.getMapDataGeoUSStates();
+      let data = await getUnitedStatesGeoData();
       setGeoData(data);
     };
     loadData();
-  }, []);
+  }, [getUnitedStatesGeoData]);
 
   return (
     <>
@@ -147,7 +150,8 @@ const UnitedStatesMap: React.FC = () => {
       </ComposableMap>
       <ReactTooltip>{mapTooltipContent}</ReactTooltip>
       <Modal
-        title="Selected State"
+        title="State"
+        width={200}
         onClose={() => setMapModalOpened(false)}
         opened={mapModalOpened}
       >

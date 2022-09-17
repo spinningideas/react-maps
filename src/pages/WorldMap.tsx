@@ -1,21 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import ReactTooltip from "react-tooltip";
 import { GeoDataService } from "services/GeoDataService";
 
-const WorldMap: React.FC = () => {
+const WorldMap = () => {
   const [geoData, setGeoData] = useState<any>();
   const [mapTooltipContent, setMapTooltipContent] = useState<string>("");
 
-  const geoDataService = new GeoDataService();
+  const getAllCountriesGeoData = useCallback(async () => {
+    const geoDataService = new GeoDataService();
+    return await geoDataService.getMapDataGeoCountries();
+  }, []);
 
   useEffect(() => {
     const loadData = async () => {
-      let data = await geoDataService.getMapDataGeoCountries();
+      let data = await getAllCountriesGeoData();
       setGeoData(data);
     };
     loadData();
-  }, []);
+  }, [getAllCountriesGeoData]);
 
   return (
     <>

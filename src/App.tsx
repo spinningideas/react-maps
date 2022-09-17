@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import RoutedPages from "routes";
 import Navigation from "components/App/Navigation";
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <Router basename="react-maps">
       <Navigation />
